@@ -38,6 +38,12 @@ python client_example.py https://api...
 replacing the argument with the API URL output by the deployment flow. If you see a JSON output, you
 can access the endpoint programmatically from any authenticated environment! 🎉
 
+To access the endpoint in another (micro)service, you should mint a new **machine user** for
+programmatic access, [following the instructions here](https://docs.outerbounds.com/outerbounds/machine-users/).
+
+> [!TIP]
+> Reach out to your support Slack if you need help configuring machine users
+
 ## Developing your own apps and endpoints
 
 Your endpoint needs to be implemented as a Python package, such as `myapp` included here as an example.
