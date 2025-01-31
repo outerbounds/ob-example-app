@@ -1,0 +1,7 @@
+
+app = "myapp"
+port = 6000
+
+[dependencies]
+fastapi = "0.115.7"
+uvicorn = "0.34.0"
