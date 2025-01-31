@@ -1,7 +1,8 @@
 from metaflow import FlowSpec, step, card, current, pypi, app_deploy, Config
 import importlib
 
-
+# This flow deploys a package defined in appconfig.toml as an endpoint
+# You can modify this flow to fit your needs
 class DeployAppFlow(FlowSpec):
     config = Config("config", default="appconfig.toml", parser="tomllib.loads")
 

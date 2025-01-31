@@ -11,6 +11,8 @@ def read_root():
 
 
 if __name__ == "__main__":
+    # load and deserialize data produced by app_init here, preparing
+    # it for serving
     try:
         with open(os.path.join(os.path.dirname(__file__), "data.json")) as f:
             model = json.load(f)["model"]

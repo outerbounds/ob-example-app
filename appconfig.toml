@@ -1,7 +1,10 @@
 
+# Package to be deployed
 app = "myapp"
+# Package __main__.py will start a server in this port
 port = 6000
 
+# List any library requirements below
 [dependencies]
 fastapi = "0.115.7"
 uvicorn = "0.34.0"
