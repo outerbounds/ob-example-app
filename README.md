@@ -67,5 +67,5 @@ this method uses Metaflow client to retrieve artifacts and store them in the giv
 so they are accessible by the deployment.
 
 To see this in action, run [the `ScalableFlow` example in the Getting Started 
-ection](https://docs.outerbounds.com/outerbounds/first-scale/). The flow will produce a dummy
+section](https://docs.outerbounds.com/outerbounds/first-scale/). The flow will produce a dummy
 "model" under the `best` artifact, which `myapp.app_init` will expose through an endpoint.

@@ -1,4 +1,4 @@
-from ob_app_client import OuterboundsAppClient
+from outerbounds_app_client import OuterboundsAppClient
 import requests
 import sys
 
