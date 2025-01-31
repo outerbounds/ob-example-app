@@ -68,4 +68,5 @@ so they are accessible by the deployment.
 
 To see this in action, run [the `ScalableFlow` example in the Getting Started 
 section](https://docs.outerbounds.com/outerbounds/first-scale/). The flow will produce a dummy
-"model" under the `best` artifact, which `myapp.app_init` will expose through an endpoint.
+model, stored as an artifact `best`. Deploy `myapp` again to invoke `myapp.app_init`
+which load the artifact and serve it through the endpoint.
